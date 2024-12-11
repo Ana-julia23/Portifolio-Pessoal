@@ -1,0 +1,164 @@
+
+/*ESTILO GERAL*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    .poppins-regular {
+    font-family: "Poppins", sans-serif;
+     font-weight: 400;
+    font-style: normal;
+}
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+}
+
+.interface{
+    max-width:1280px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(90, 231, 170);
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .2;
+}
+
+.img-sobre img{
+    width: 100%;
+    height: auto;
+    border-radius: 10%;
+
+}
+
+
+/*ESTILO DO CABEÇALHO*/
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color:  rgb(114, 232, 218);
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color:rgb(114, 211, 169);
+    transform: scale(1.2);
+}
+
+header nav{
+    list-style-type:none;
+}
+
+header nav ul li{
+    display:inline-block;
+    padding: 0 40px;
+}
+
+.btn-contato button:hover{
+      box-shadow: 0px 0 8px rgb(95, 208, 133);
+      transform: 1.5;
+    
+  }
+
+/* ESTILO DO TOPO DO SITE */
+section.topo-do-site{
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+}
+
+.topo-do-site h1{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.topo-do-site .txt-topo-site h1 span{
+    color: rgb(81, 235, 194);
+}
+
+.topo-do-site .txt-topo-site p{
+    color:white;
+    margin:40px 0;
+    font-size: 20px;
+}  
+
+
+/* ESTILO DO SOBRE */
+section.sobre{
+    padding: 48px 4%;
+    font-size: 19px;
+}
+
+section.sobre .flex{
+    align-items: center;
+    gap: 60px;
+}
+
+.sobre .txt-sobre{
+    color: white;
+}
+
+.sobre .txt-sobre h2{
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 5px;
+}
+
+.sobre .txt-sobre h2 span{
+    color: rgb(24, 193, 120);
+    display: block;
+}
+
+.sobre .txt-sobre p{
+    margin: 10px 0;
+    text-align: justify;
+}
+
+.sobre .txt-sobre .btn-social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border:none;
+    background-color: rgb(24, 193, 120);
+    font-size: 35px;
+    cursor: pointer;
+    transition: .2s;
+    transform: 1.5;
+    margin: 0 5px;
+}
+
+.btn-social a{
+    text-decoration: none;
+}
+
+/* ESTILO DO FORMULÁRIO DE CONTATO */
+
+section.formulario{
+    padding: 80px 4%;
+}
